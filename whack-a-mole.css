@@ -2,11 +2,16 @@
     width: 460px;
 }
 
-.molehill {
+.mole-box {
     margin: 0;
     border: 1px solid black;
     height: 150px;
     width: 150px;
+}
+
+.molehill {
+    width: 100%;
+    height: 100%;
 }
 
 .mole {
