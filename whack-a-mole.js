@@ -13,6 +13,7 @@ function molePop(score) {
         $(currentLocation).removeClass('mole');
         score++;
         console.log(score);
+        $('#score').html(score)
     })
 
     //makes the mole move around on a timer
