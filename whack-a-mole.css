@@ -8,3 +8,9 @@
     height: 150px;
     width: 150px;
 }
+
+.mole {
+    background-image: url("mole.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
