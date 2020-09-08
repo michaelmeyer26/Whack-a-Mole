@@ -11,7 +11,13 @@
 <body>
     <div class="container">
         <h1 class="text-center">Whack-a-Mole!</h1>
-        <h3 class="text-center">Score: <span id="score">0</span></h3>
+
+        <div class="row top-row d-flex justify-content-between mx-auto my-2">
+            <button type="button" class="btn btn-outline-success" id="start-button">Start Round!</button>
+            <h3 class="text-center">Current Score: <span id="current-score">0</span></h3>
+            <h3 class="text-center">High Score: <span id="high-score">0</span></h3>
+        </div>
+
         <div id="playing-field" class="w-100">
             <div class="row mx-auto">
                 <div class="mole-box"><div class="molehill"></div></div>
