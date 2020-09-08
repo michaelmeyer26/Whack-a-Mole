@@ -1,6 +1,10 @@
+#playing-field .row {
+    width: 460px;
+}
+
 .molehill {
     margin: 0;
     border: 1px solid black;
-    height: 3em;
-    width: 3em;
+    height: 150px;
+    width: 150px;
 }
